@@ -3,43 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultivate Health</title>
-    <link rel="icon" href="Data/favicon.png" type="image/png">
+    <title>Your Page Title</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Background and Text Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f4f8; /* Light grey background similar to the screenshot */
+            color: #3c00ff; /* Bright blue text color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        /* Main Content Styling */
+        .container {
+            text-align: center;
+        }
+
+        /* Header Navigation */
+        .nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #3c00ff;
+            text-transform: uppercase;
+        }
+
+        /* Main Headline Styling */
+        h1 {
+            font-size: 2.5rem; /* Adjust size as needed */
+            line-height: 1.4;
+            color: #3c00ff;
+        }
+
+        /* Decorative Element */
+        .highlight {
+            display: inline-block;
+            width: 20px;
+            height: 5px;
+            background-color: #caff00; /* Neon green highlight */
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Brand Logo</h1>
-    </header>
-    
-    <section class="product">
-        <div class="product-image">
-            <img src="your-product-image.jpg" alt="Product Image">
-        </div>
-        <div class="product-info">
-            <h2>100% Natural Product</h2>
-            <p>Get the health benefits without hassle! Our product is made with natural, organic ingredients.</p>
-            <button class="order-button" onclick="window.location.href='https://www.paypal.com/checkoutpage'">Order Now</button>
-        </div>
-    </section>
-    
-    <section class="benefits">
-        <div class="benefit">
-            <h3>Benefit 1</h3>
-            <p>Description of benefit 1.</p>
-        </div>
-        <div class="benefit">
-            <h3>Benefit 2</h3>
-            <p>Description of benefit 2.</p>
-        </div>
-        <div class="benefit">
-            <h3>Benefit 3</h3>
-            <p>Description of benefit 3.</p>
-        </div>
-    </section>
+    <!-- Navigation Links -->
+    <div class="nav">
+        <a href="#ethos">Ethos</a>
+        <a href="#team">Team</a>
+        <a href="#blog">Blog</a>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Cultivate Health</p>
-    </footer>
+    <!-- Main Content -->
+    <div class="container">
+        <h1>
+            We go all in with our <br>
+            founders with lead checks <br>
+            at the Seed and Series A.<span class="highlight"></span>
+        </h1>
+    </div>
 </body>
 </html>
-
